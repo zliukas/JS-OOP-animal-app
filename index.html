@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://bootswatch.com/5/vapor/bootstrap.min.css">
+    <title>JS OOP </title>
+</head>
+  <body>
+
+    <div class="container mt-5">
+        <h1 class="display-2 text-center">
+            <i class="fas fa-book-open text-primary"></i> JS<span class="text-primary">OOP </span>AnimalAPP</h1>
+          <form id="animal-form">
+            <div class="mb-3 form-group ">
+              <label for="title">Gyvūnas</label>
+              <input type="text" id="title" class="form-control">
+            </div>
+            <div class="mb-3 form-group">
+              <label for="bruozai">Gyvūno bruožai</label>
+              <input type="text" id="bruozai" class="form-control">
+            </div>
+            <div class="mb-3 mt-3 form-group">
+              <label for="id">Gyvūno ID</label>
+              <input type="text" id="id" class="form-control">
+            </div>
+             <!-- <div class="mb-3">
+                <label for="date" class="form-label">Data</label>
+                <div>
+                  <input type="date" class="form-control mas" id="date">
+                </div>
+              </div>  -->
+
+            <button type="submit" class="u-full-width glow-on-hover" id="myButton">Submit</button>
+  
+
+          </form>
+          <table class="table table-hover mt-5">
+            <thead>
+              <tr>
+                <th>Gyvunas</th>
+                <th>Gyvūno bruožai</th>
+                <th>Gyvūno ID</th>
+                <!-- <th>Data</th>  -->
+                <th>Grazinti gyvuna</th>
+              </tr>
+            </thead>
+            <tbody id="animal-list"></tbody>
+          </table>
+      </div>
+
+    <script src="js.js"></script>    
+  </body>
+</html>
